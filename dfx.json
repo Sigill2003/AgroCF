@@ -33,9 +33,15 @@
       "wasm": "https://github.com/dfinity/internet-identity/releases/download/release-2023-09-08/internet_identity_dev.wasm.gz",
       "remote": {
         "id": {
-          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+          "ic": "be2us-64aaa-aaaaa-qaabq-cai"
         }
       }
     }
+  },
+  "networks": {
+    "local": {
+      "type": "ephemeral"
+    }
   }
 }
+
