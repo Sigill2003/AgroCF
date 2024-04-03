@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app';
-
+import "./styles.css";
 import { Client, InternetIdentity } from '@bundly/ic-core-js';
 import { IcpConnectContextProvider } from '@bundly/ic-react';
 
