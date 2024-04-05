@@ -1,10 +1,46 @@
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFEC; /* Fondo principal */
 }
 
-header{
-    background-color: black;
-    margin: 0px;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F1E4C3; /* Fondo del contenedor */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #C6A969; /* Color del título */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
     padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #597E52; /* Color de borde de celda */
+}
+
+th {
+    background-color: #AFC8AD; /* Color de fondo de encabezado */
 }
