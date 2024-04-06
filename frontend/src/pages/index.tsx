@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const MiComponente: React.FC = () => {
   return (
     <div className="container">
@@ -84,3 +85,8 @@ const MiComponente: React.FC = () => {
 };
 
 export default MiComponente;
+
+
+
+
+

@@ -1,4 +1,10 @@
 {
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8001",
+      "type": "ephemeral"
+    }
+  },
   "canisters": {
     "backend": {
       "type": "custom",
@@ -37,11 +43,5 @@
         }
       }
     }
-  },
-  "networks": {
-    "local": {
-      "type": "ephemeral"
-    }
   }
 }
-
